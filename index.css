@@ -120,6 +120,7 @@ nav .search-btn {
     background-color: rgb(230, 230, 230);
     border-radius: 2vw;
     margin-top: 5vw;
+    padding: 4%;
 }
 
 .section-one .container-one .right {
@@ -128,6 +129,7 @@ nav .search-btn {
     background-color: rgb(230, 230, 230);
     margin-top: 5vw;
     border-radius: 2vw;
+    padding: 4%;
 }
 
 
@@ -248,3 +250,43 @@ nav .search-btn {
     width: 100%;
     background-color: rgb(230, 230, 230);
 }
+
+
+/* 通用样式 */
+
+
+/* 标签标题 */
+
+.context-title {
+    font-size: 1.8rem;
+}
+
+
+/* 链接样式 */
+
+.context-list li {
+    list-style: none;
+    margin: 2%;
+}
+
+.context-list li a {
+    font-size: 1.5rem;
+    color: #0070C9;
+    text-decoration: none;
+}
+
+.context-list li a:hover {
+    text-decoration: underline;
+}
+
+
+/* 链接描述 */
+
+.context-list li p {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #333333;
+    text-align: left;
+}
+
+.learn-more-btn {}
