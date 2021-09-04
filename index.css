@@ -13,6 +13,11 @@
     src: url("./font/GLADWIN-Light-2.otf");
 }
 
+@font-face {
+    font-family: banner;
+    src: url("./font/YuanRunLuFengMang-2.ttf");
+}
+
 nav {
     height: 5vw;
     width: 100vw;
@@ -20,13 +25,20 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .8);
     box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .08);
 }
 
 nav h1 {
     font-family: logoFont;
     font-size: 3.5rem;
+    /* make the text unselectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 nav .search-btn {
@@ -64,6 +76,22 @@ nav .search-btn {
     max-width: 100%;
     /* background-color: rgb(230, 230, 230); */
     background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-zero p {
+    font-size: 6rem;
+    font-family: banner;
+    letter-spacing: 2rem;
+    /* make the text unselectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
