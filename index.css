@@ -20,11 +20,6 @@
     src: url("./font/GLADWIN-Light-2.otf");
 }
 
-@font-face {
-    font-family: banner;
-    src: url("./font/YuanRunLuFengMang-2.ttf");
-}
-
 nav {
     height: 5vw;
     width: 100vw;
@@ -89,8 +84,8 @@ nav .search-btn {
 }
 
 .section-zero p {
-    font-size: 6rem;
-    font-family: banner;
+    font-size: 9rem;
+    font-family: 'Liu Jian Mao Cao', cursive;
     letter-spacing: 2rem;
     /* make the text unselectable */
     -webkit-touch-callout: none;
