@@ -3,6 +3,13 @@
     padding: 0;
     /* background-color: rgb(154, 142, 226); */
     box-sizing: border-box;
+    /* make the text unselectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
