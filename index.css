@@ -32,7 +32,7 @@ nav {
 }
 
 nav h1 {
-    font-family: logoFont;
+    font-family: 'Allison', cursive;
     font-size: 3.5rem;
     /* make the text unselectable */
     -webkit-touch-callout: none;
