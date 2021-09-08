@@ -76,3 +76,21 @@ globalKeyBorad.addEventListener('keydown', e => {
 
     }
 });
+
+// 下滚网页操作
+globalKeyBorad.addEventListener('keydown', e => {
+
+    console.log(e)
+    if (e.key == "J") {
+        window.scrollBy(0, window.innerHeight / 2);
+    }
+});
+
+// 上滚网页操作
+globalKeyBorad.addEventListener('keydown', e => {
+
+    console.log(e)
+    if (e.key == "K") {
+        window.scrollBy(0, -window.innerHeight / 2);
+    }
+});
